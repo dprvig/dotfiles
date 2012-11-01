@@ -35,3 +35,5 @@ plugins=(git brew sublime vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+PATH=/usr/local/bin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
