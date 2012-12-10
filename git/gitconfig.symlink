@@ -1,0 +1,27 @@
+[hub]
+    protocol = https
+[user]
+    name  = Josh Miller
+    email = josh@joshmmiller.com
+[credential]
+    helper = osxkeychain
+[alias]
+     count = !git shortlog -sn
+[color]
+    diff   = auto
+    status = auto
+    branch = auto
+    ui     = true
+[core]
+    excludesfile = ~/.gitignore
+    editor       = vim
+[apply]
+    whitespace = nowarn
+[mergetool "sourcetree"]
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
+[difftool "sourcetree"]
+    cmd  = opendiff \"$LOCAL\" \"$REMOTE\"
+    path = 
+[help]
+    autocorrect = 1
