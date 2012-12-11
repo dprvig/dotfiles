@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Set Custom Path
-ZSH_CUSTOM=$HOME/Code/dotfiles/zsh
+ZSH_CUSTOM=$HOME/.dotfiles/zsh
 
 # Set name of the theme to load.
 ZSH_THEME="joshbook"
