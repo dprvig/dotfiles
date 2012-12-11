@@ -1,4 +1,4 @@
-# Josh Miller Dot Files
+# Josh Miller's Dot Files
 
 These are my personal dotfiles which I use to customize my system. I have based many of these files on [Holman's dotfile setup](https://github.com/holman/dotfiles).
 
