@@ -1,3 +1,5 @@
+AwesomePrint.irb! if defined?(AwesomePrint)
+
 def load_project_irbrc(path)
   return if (path == ENV["HOME"]) || (path == '/')
   load_project_irbrc(File.dirname path)
