@@ -24,7 +24,7 @@ ZSH_THEME="joshbook"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew composer git sublime vagrant)
+plugins=(brew capistrano composer git sublime vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
